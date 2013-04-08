@@ -18,7 +18,7 @@ with them, a tool for creating puzzles for 3D printers.
 
 Some images created with the firsts steps can be founded here: https://www.box.com/kopf-lischinski/
 
-The program use the SDL and SDL_primitives libraries for drawing the graphs. It's one of the things I want to change... Now, the code of the 
+The program use the SDL and SDL_gfx libraries for drawing the graphs. It's one of the things I want to change... Now, the code of the 
 algorithm is very mixed with sdl. I hope to separate them in a future version. 
 
 The first step use the hqx algorithm to generate similarity graph. I'm using this implementation: https://code.google.com/p/hqx/
@@ -26,10 +26,10 @@ That hqx implementation is under LGPL license. Not sure if is needed include som
 
 As I said before, I am a little short of time, but I have not abandoned this... I hope to continue it soon. 
 
-
+----------------------------------------------------------------------------------------------------------------------
 ======================================================================================================================
 
-Esta es una implentaciń del algoritmo Kopf-Lischinski.
+Esta es una implentación del algoritmo Kopf-Lischinski.
 
 La descripción de este algoritmo se puede encontrar aquí: http://research.microsoft.com/en-us/um/people/kopf/pixelart/
 
@@ -46,7 +46,7 @@ pensando en usarlos, para hacer en un futuro, una herramienta que genere puzzles
 
 Algunas imágenes generadas por los primeros del algoritmo, pueden encontrarse aquí: https://www.box.com/kopf-lischinski/
 
-El programa usa las librerías SDL y SDL_primitives para dibujar los gráficos. Es una de las cosas que quería cambiar 
+El programa usa las librerías SDL y SDL_gfx para dibujar los gráficos. Es una de las cosas que quería cambiar 
 antes de publicarlo... Ahora toda la parte del algoritmo está muy mezclada con las sdl. Espero separar todo eso en una
 futura versión.
 
