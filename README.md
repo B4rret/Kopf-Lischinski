@@ -16,6 +16,8 @@ in case someone wants to make testings with it. The program can generate now gra
 of the algorithm. I think that these graphs can be useful for various tasks. By example, I'm thinking about making
 with them, a tool for creating puzzles for 3D printers.
 
+Some images created with the firsts steps can be founded here: https://www.box.com/kopf-lischinski/
+
 The program use the SDL and SDL_primitives libraries for drawing the graphs. It's one of the things I want to change... Now, the code of the 
 algorithm is very mixed with sdl. I hope to separate them in a future version. 
 
@@ -41,6 +43,8 @@ publicarlo, pero he andado falto de tiempo en los últimos meses. Por esto al fi
 si alguien quiere hacer pruebas con ello. Actualmente el programa puede generar gráficos con los primeros pasos del 
 algoritmo. Creo que los gráficos que generan estos pasos  pueden ser utiles para diversas cosas. Por ejemplo, estoy
 pensando en usarlos, para hacer en un futuro, una herramienta que genere puzzles para impresoras 3D.
+
+Algunas imágenes generadas por los primeros del algoritmo, pueden encontrarse aquí: https://www.box.com/kopf-lischinski/
 
 El programa usa las librerías SDL y SDL_primitives para dibujar los gráficos. Es una de las cosas que quería cambiar 
 antes de publicarlo... Ahora toda la parte del algoritmo está muy mezclada con las sdl. Espero separar todo eso en una
