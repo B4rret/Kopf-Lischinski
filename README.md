@@ -21,7 +21,7 @@ Some images created with the firsts steps can be founded here: https://www.box.c
 The program use the SDL and SDL_primitives libraries for drawing the graphs. It's one of the things I want to change... Now, the code of the 
 algorithm is very mixed with sdl. I hope to separate them in a future version. 
 
-The first step use the hqx algorithm to generate connection graph. I'm using this implementation: https://code.google.com/p/hqx/
+The first step use the hqx algorithm to generate similarity graph. I'm using this implementation: https://code.google.com/p/hqx/
 That hqx implementation is under LGPL license. Not sure if is needed include some copyright file for using. I hope not to be breaking the LGPL license :S
 
 As I said before, I am a little short of time, but I have not abandoned this... I hope to continue it soon. 
@@ -50,7 +50,7 @@ El programa usa las librerías SDL y SDL_primitives para dibujar los gráficos. 
 antes de publicarlo... Ahora toda la parte del algoritmo está muy mezclada con las sdl. Espero separar todo eso en una
 futura versión.
 
-El primer paso del algoritmo necesita a su vez del algoritmo hqx para general el gráfico de conexiones. Para esto he 
+El primer paso del algoritmo necesita a su vez del algoritmo hqx para general el gráfico de similitudes. Para esto he 
 usado la implementación que se encuentra en https://code.google.com/p/hqx/ 
 Esta implementación del algoritmo hqx está bajo la licencia LGPL. No se si con esta licencia es necesario incluir algún
 archivo de copyright con mi código o algo así. Espero no infringir la LGPL :S
